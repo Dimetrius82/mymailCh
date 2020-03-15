@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+   
+    <group android:id="@+id/group2" >
+         <item
+             android:id="@+id/xieyoujianba"
+             android:title="快速回复">
+         </item>
+         
+          <item
+             android:id="@+id/yidu"
+             android:title="标记已读">
+         </item>
+         <item
+             android:id="@+id/weidu"
+            android:title="标记未读">
+         </item>
+           <item
+             android:id="@+id/shanchu"
+            android:title="删除邮件">
+         </item>
+     </group> 
+
+</menu>

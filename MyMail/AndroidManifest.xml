@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.xrq.mymail"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="22" />
+ <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> 
+  <uses-permission android:name="android.permission.INTERNET" /> 
+   <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_DOWNLOAD_MANAGER" />
+    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.EXPAND_STATUS_BAR" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".WelcomeActivity"
+            android:label="@string/app_name"
+             android:theme="@android:style/Theme.Light.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MyLoginActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"/>
+        <activity android:name=".GetMailActivity"
+            
+            android:label="@string/app_name"
+            android:launchMode="singleTask"/>
+          <activity android:name=".MainActivity"
+            android:launchMode="singleTask"/>
+                <activity android:name=".SendMailActivity"
+            
+            android:launchMode="singleTask"/>
+                
+                    <activity android:name=".AddContactActivity"
+            
+            android:launchMode="singleTask"/>
+                    
+                      <activity android:name=".ShowAddressActivity"
+            
+            android:launchMode="singleTask"/>
+                         <activity android:name=".RegisterActivity"
+            
+            android:launchMode="singleTask"/>
+                         <activity android:name=".DetailActivity"
+            
+            android:launchMode="singleTask"/>
+                         
+                         <activity android:name=".NetImageActivity"
+            
+            android:launchMode="singleTask"/>
+                           <activity android:name=".NetTxtActivity"
+            
+            android:launchMode="singleTask"/>
+         
+    </application>
+
+</manifest>

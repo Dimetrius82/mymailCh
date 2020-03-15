@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/send_mail"
+    > 
+    <include layout="@layout/send_title" />
+ 
+<TableLayout
+
+    android:layout_marginTop="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1"
+    
+    android:id="@+id/send_layout">
+<TableRow
+     android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="25dp">
+    <TextView 
+        android:layout_height="wrap_content"
+        android:text="收件人："
+        />
+    <EditText 
+        android:id="@+id/shoujianren"
+        android:layout_height="wrap_content"
+         android:hint="收件人地址"/>
+ 
+</TableRow>
+
+    
+<TableRow
+     android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="25dp">
+    <TextView 
+        android:layout_height="wrap_content"
+        android:text="发件人："
+       />
+    <EditText 
+        android:id="@+id/fajianren"
+        android:layout_height="wrap_content"
+         android:hint="输入发件人地址"/>
+ 
+</TableRow>
+
+   
+<TableRow
+     android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="25dp">
+    <TextView 
+        android:layout_height="wrap_content"
+        android:text="主题："
+       />
+    <EditText 
+        android:id="@+id/zhuti"
+        android:layout_height="wrap_content"
+         android:hint="输入主题摘要"/>
+ 
+</TableRow>
+
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="100dp"  
+    android:orientation="horizontal">
+    
+    <TextView 
+        android:layout_width="280dp"
+        android:layout_height="100dp"
+        android:id="@+id/attach_text"
+        android:layout_marginLeft="15dp"
+        android:hint="附件的路径。。。"
+        />
+    <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:orientation="vertical">
+    
+        
+    <Button
+        android:id="@+id/fujian"
+        android:layout_height="30dp"
+        android:layout_width="wrap_content" 
+        android:layout_marginTop="15dp"
+        android:text="附件"
+        android:background="@drawable/login_btn"
+        android:textColor="@android:color/white" />
+    
+    
+        <Button
+        android:id="@+id/send"
+        android:layout_height="30dp"
+        android:layout_width="wrap_content" 
+        android:layout_marginTop="15dp"
+        android:text="发送"
+        android:background="@drawable/login_btn"
+        android:textColor="@android:color/white" />
+    </LinearLayout>
+</LinearLayout>
+
+         <View android:layout_height="1dp"
+android:layout_width="wrap_content"
+android:layout_marginRight="20dp"
+android:layout_marginLeft="13dp"
+android:background="@color/blue"/>
+         
+<EditText
+    android:layout_marginTop="10dp"
+    android:id="@+id/neirong"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:hint="在这里给他（她）输入你想说的话。。。"
+    android:gravity="top"
+    android:ems="10" >
+
+    <requestFocus />
+</EditText>
+
+</TableLayout>
+
+</LinearLayout>

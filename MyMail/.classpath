@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry exported="true" kind="lib" path="D:/互联网编程/Android源码/activation.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/互联网编程/Android源码/additionnal.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/互联网编程/Android源码/mail.jar"/>
+	<classpathentry kind="lib" path="D:/互联网编程/javamail-1.4.3.jar"/>
+	<classpathentry kind="lib" path="D:/互联网编程/javamail-1.4.5/lib/dsn.jar"/>
+	<classpathentry kind="lib" path="D:/互联网编程/javamail-1.4.5/lib/imap.jar"/>
+	<classpathentry kind="lib" path="D:/互联网编程/javamail-1.4.5/lib/mailapi.jar"/>
+	<classpathentry kind="lib" path="D:/互联网编程/javamail-1.4.5/lib/pop3.jar"/>
+	<classpathentry kind="lib" path="D:/互联网编程/javamail-1.4.5/lib/smtp.jar"/>
+	<classpathentry kind="lib" path="lib/activation.jar"/>
+	<classpathentry kind="lib" path="lib/additionnal.jar"/>
+	<classpathentry kind="lib" path="lib/mail.jar"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

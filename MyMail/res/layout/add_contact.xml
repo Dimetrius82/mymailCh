@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/hehe"
+    > 
+    <include layout="@layout/title" />
+ 
+<TableLayout
+    android:layout_marginTop="100dp"
+         android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1"
+    android:id="@+id/contact_layout">
+<TableRow
+     android:layout_marginTop="10dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp">
+    <TextView 
+        android:layout_height="wrap_content"
+        android:text="联系人："
+        />
+    <EditText 
+        android:id="@+id/contact_name"
+        android:layout_height="wrap_content"
+         android:hint="输入联系人昵称"/>"
+ 
+</TableRow>
+
+    
+<TableRow
+     android:layout_marginTop="10dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp">
+    <TextView 
+        android:layout_height="wrap_content"
+        android:text="邮箱："
+       />
+    <EditText 
+        android:id="@+id/contact_email"
+        android:layout_height="wrap_content"
+         android:hint="输入联系人邮箱地址"/>
+ 
+</TableRow>
+
+<TableRow>
+
+    <Button
+        android:id="@+id/addNewContact"
+        android:layout_height="40dp"
+        android:layout_width="100dp" 
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_span="2"
+        android:text="添加"
+        android:background="@drawable/login_btn"
+        android:textColor="@android:color/white" />
+</TableRow>
+
+</TableLayout>
+</RelativeLayout>
