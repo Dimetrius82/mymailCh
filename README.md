@@ -6,4 +6,4 @@ our MyMail.apk will normally work.
 
 Thanks and best wishes! Please feel free to contact me at xurongqin2018@email.szu.edu.cn if you have any questions.
 
-![](1.png)
+![image](1.png)
