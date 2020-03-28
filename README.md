@@ -1,3 +1,4 @@
+# Introduction
 1）、The folder 'MyMail' includes all the code and open-source packages of the project.
 2）、You can directly download the  'MyMail.apk' file and then install it to your Android Phone or other Android devices.
 Please note that it currently supports both QQ mail and 163 mail. And you are supposed to open the IMAP and STMP services so that
@@ -6,4 +7,5 @@ our MyMail.apk will normally work.
 
 Thanks and best wishes! Please feel free to contact me at xurongqin2018@email.szu.edu.cn if you have any questions.
 
-![image](https://github.com/TsingH-googl/MyMail/blob/master/1.png)
+# Demos
+![image](https://github.com/TsingH-googl/MyMail/blob/master/2.png) ![image](https://github.com/TsingH-googl/MyMail/blob/master/3.png)
