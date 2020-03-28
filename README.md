@@ -8,4 +8,4 @@ our MyMail.apk will normally work.
 Thanks and best wishes! Please feel free to contact me at xurongqin2018@email.szu.edu.cn if you have any questions.
 
 # Demos
-![image](https://github.com/TsingH-googl/MyMail/blob/master/2.png) ![image](https://github.com/TsingH-googl/MyMail/blob/master/3.png)
+![image](https://github.com/TsingH-googl/MyMail/blob/master/2.jpg) ![image](https://github.com/TsingH-googl/MyMail/blob/master/3.jpg)
